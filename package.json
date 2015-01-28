@@ -1,6 +1,6 @@
 {
   "name": "bray-curtis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nearest neighbor using bray curtis dissimilarity",
   "main": "index.js",
   "scripts": {

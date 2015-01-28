@@ -17,7 +17,7 @@ var similarity = 100 - dissimilarity; // change dissimilarity to similarity (Bra
 
 # methods
 ```javascript
-var BrayCurtis = require('bray-curtis-nearest-neighbor');
+var BrayCurtis = require('bray-curtis');
 ```
 
 ## var nn = BrayCurtis(vectors)
@@ -35,7 +35,7 @@ Resulting `neighbors` is an array where each object has the following properties
 # example
 
 ```javascript
-var BrayCurtis = require('bray-curtis-nearest-neighbor');
+var BrayCurtis = require('bray-curtis');
 var vectors = [
   [26, 4, 13, 11, 0],
   [0, 10, 9, 8, 0],

@@ -1,12 +1,14 @@
-# bray-curtis nearest-neighbor
+# bray-curtis
 
 Nearest neighbor using bray curtis dissimilarity.
+
+[![wercker status](https://app.wercker.com/status/f0435d8b2ad48a6efb7c5e094c31d641/m "wercker status")](https://app.wercker.com/project/bykey/f0435d8b2ad48a6efb7c5e094c31d641)
 
 This is a Bray Curtis implementation for nearest neighbor. More information can be found [here](https://en.wikipedia.org/wiki/Bray%E2%80%93Curtis_dissimilarity).
 
 *"The Bray–Curtis dissimilarity is bound between 0 and 1, where 0 means the two sites have the same composition (that is they share all the species), and 1 means the two sites do not share any species."*
 
-Note: This implementation actually uses the **Bray-Curtis index**. This means the values are bound between 0 and 100, and 0 means the two sites do not share any species. This is implemented like so:
+**Note**: This implementation actually uses the **Bray-Curtis index**. This means the values are bound between 0 and 100, and 0 means the two sites do not share any species. This is implemented like so:
 
 ```javascript
 dissimilarity = dissimilarity * 100; // interpret dissimilarity as a percentage

@@ -28,7 +28,7 @@ Create a new Bray Curtis nearest neighbor instance. `vector` is an an array (nei
 
 Returns the `k` most nearest neighbors to `subject` (the target neighbor). `k` default is `10`.
 
-Resulting `neighbors` is an array where each object has the following properties:
+Resulting `neighbors` is a sorted, (most similar first) array where each object has the following properties:
   * `vector` - the neighbor vector
   * `d` - the "Bray-Curtis index" score. ie. similarity score.
 

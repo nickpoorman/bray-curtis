@@ -1,0 +1,36 @@
+{
+  "name": "bray-curtis",
+  "version": "1.0.0",
+  "description": "nearest neighbor using bray curtis dissimilarity",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nickpoorman/bray-curtis.git"
+  },
+  "author": "Nick Poorman",
+  "bugs": {
+    "url": "https://github.com/nickpoorman/bray-curtis/issues"
+  },
+  "homepage": "https://github.com/nickpoorman/bray-curtis",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "lodash": "^2.4.1",
+    "simple-statistics": "tmcw/simple-statistics"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.4.2"
+  },
+  "keywords": [
+    "bray-curtis",
+    "bray",
+    "curtis",
+    "nearest-neighbor",
+    "nearest",
+    "neighbor"
+  ],
+  "license": "MIT"
+}

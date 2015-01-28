@@ -2,7 +2,7 @@
 
 Nearest neighbor using bray curtis dissimilarity.
 
-[![wercker status](https://app.wercker.com/status/f0435d8b2ad48a6efb7c5e094c31d641/m "wercker status")](https://app.wercker.com/project/bykey/f0435d8b2ad48a6efb7c5e094c31d641)
+[![wercker status](https://app.wercker.com/status/f0435d8b2ad48a6efb7c5e094c31d641/s "wercker status")](https://app.wercker.com/project/bykey/f0435d8b2ad48a6efb7c5e094c31d641)
 
 This is a Bray Curtis implementation for nearest neighbor. More information can be found [here](https://en.wikipedia.org/wiki/Bray%E2%80%93Curtis_dissimilarity).
 

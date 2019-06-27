@@ -22,7 +22,7 @@ var BrayCurtis = require('bray-curtis');
 
 ## var nn = BrayCurtis(vectors)
 
-Create a new Bray Curtis nearest neighbor instance. `vector` is an an array (neighbors) of arrays (neighbor features).
+Create a new Bray Curtis nearest neighbor instance. `vector` is an array (neighbors) of arrays (neighbor features).
 
 ### var neighbors = nn.knn(subject, k);
 

@@ -17,7 +17,7 @@
   "homepage": "https://github.com/nickpoorman/bray-curtis",
   "dependencies": {
     "debug": "^2.1.0",
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.19",
     "simple-statistics": "tmcw/simple-statistics"
   },
   "devDependencies": {
